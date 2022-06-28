@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #231010;
+}
+.link {
+  text-decoration: none;
+  color: #d9ead3;
+}
+#navbar {
+  list-style-type: none;
+  padding: 20px;
+  margin: 0;
+  background-color: #231010;
+}
+
+#navbar li {
+  padding: 10px;
+  display: inline;
+}
+
+#navbar li p {
+  padding-top: 0px;
+  padding-bottom: 50px;
+  color: #d9ead3;
+  display: inline;
+  font-size: large;
+}
+#nav-header {
+  color: #d9ead3;
+  font-size: xx-large;
+  padding: 20px;
+}
+/* Post card styling */
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 20px;
+}
+.card h3 {
+  display: inline;
+}
+.card h4 {
+  display: inline;
+  align-content: right;
+}
+
+/* General */
+.padding-20 {
+  padding: 20;
+}

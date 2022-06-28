@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      Tech Blog
+    </title>
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+  <body>
+    {{! Nav bar }}
+    <nav id="navbar">
+      <ul id="navbar-ul">
+        <li>
+          <p>
+            <a class="link" href="/">
+              Home
+            </a>
+          </p>
+        </li>
+        {{#if loggedIn}}
+          <li>
+            <p>
+              <a class="link" href="/dashboard">
+                Dashboard
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <button id="logout-btn" class="btn-style">
+                Logout
+              </button>
+            </p>
+          </li>
+        {{else}}
+          <li>
+            <p>
+              <a class="link" href="/login">
+                Login
+              </a>
+            </p>
+          </li>
+        {{/if}}
+      </ul>
+      <h1 id="nav-header">
+        The Tech Blog
+      </h1>
+    </nav>
+    {{{body}}}
+  </body>
+  <script src="/js/logout.js"></script>
+  <script src="/js/home.js"></script>
+</html>

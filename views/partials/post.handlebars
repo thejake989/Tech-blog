@@ -1,0 +1,18 @@
+{{! Partial for each individual comment }}
+<a href="/viewpost/{{id}}">
+  <div class="card">
+    <h3 class="post-header">
+      {{title}}
+    </h3>
+    <h4>
+      Posted by
+      {{user.username}}
+      on 12/1/2020
+    </h4>
+    <div class="container">
+      <p class="post-text">
+        {{body}}
+      </p>
+    </div>
+  </div>
+</a>
