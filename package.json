@@ -2,20 +2,47 @@
   "name": "tech-blog",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
-    "test": "npm run build:css && nodemon server.js"
+    "test": "",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/treguv/tech-blog.git"
+    "url": "git+https://github.com/thejake989/Tech-blog.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/treguv/tech-blog/issues"
+    "url": "https://github.com/thejake989/Tech-blog/issues"
   },
-  "homepage": "https://github.com/treguv/tech-blog#readme",
+  "homepage": "https://github.com/thejake989/Tech-blog#readme"
+}
+
+
+
+
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "",
+  },
+  "homepage": "",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "connect-session-sequelize": "^7.0.4",
